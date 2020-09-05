@@ -29,12 +29,20 @@ data = [[sheet.cell_value(r,c) for c in range(sheet.ncols)] for r in range(sheet
 
 days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
 
-print(max(days),min(days))
+# print(max(days),min(days))
 
-plt.hist(days,bins=25,normed = 1,facecolor = "blue", edgecolor = "black",alpha = 0.3)
+# hist for age
 
-plt.xlabel("Age(days)")
-plt.ylabel("Frequency/relative frequency")
-plt.title("Frequency distribution histogram for Age(days)")
+# plt.hist(days,bins=25,normed = 0,facecolor = "blue", edgecolor = "black",alpha = 0.5)
+# plt.xlabel("Age(days)")
+# plt.ylabel("Frequency")
+# plt.title("Frequency distribution histogram for Age(days)")
+# plt.show()
+
+# box plot
+red_square = dict(markerfacecolor='r', marker='s')
+fig6, ax = plt.subplots()
+ax.set_title('Boxplot for Age(day)')
+ax.boxplot(days, flierprops=red_square, vert=False, whis=0.75)
 plt.show()
 
