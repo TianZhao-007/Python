@@ -27,7 +27,7 @@ data = [[sheet.cell_value(r,c) for c in range(sheet.ncols)] for r in range(sheet
 # for row in range(1,sheet.nrows):
 #     print(data[row][7])
 
-days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
+# days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
 
 # print(max(days),min(days))
 
@@ -46,4 +46,3 @@ days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
 # ax.set_title('Box and whisker plot for Age')
 # ax.boxplot(days, flierprops=red_square, vert=False, whis=0.75)
 # plt.show()
-
