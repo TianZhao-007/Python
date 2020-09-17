@@ -27,13 +27,14 @@ data = [[sheet.cell_value(r,c) for c in range(sheet.ncols)] for r in range(sheet
 # for row in range(1,sheet.nrows):
 #     print(data[row][7])
 
-# days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
+
+days = [sheet.cell_value(r,7) for r in range(1,sheet.nrows)]
 
 # print(max(days),min(days))
 
 # hist for age
 
-# plt.hist(days,bins=25,normed = 0,facecolor = "blue", edgecolor = "black",alpha = 0.5)
+# plt.hist(days,bins=100,normed = 0,facecolor = "blue", edgecolor = "black",alpha = 0.5)
 # plt.xlabel("Age(days)")
 # plt.ylabel("Frequency")
 # plt.title("Frequency distribution histogram for Age(days)")
@@ -46,3 +47,4 @@ data = [[sheet.cell_value(r,c) for c in range(sheet.ncols)] for r in range(sheet
 # ax.set_title('Box and whisker plot for Age')
 # ax.boxplot(days, flierprops=red_square, vert=False, whis=0.75)
 # plt.show()
+
