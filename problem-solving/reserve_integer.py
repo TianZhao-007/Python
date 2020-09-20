@@ -20,3 +20,4 @@ print(reverse_integer(x))
 # 1. return has no meaning outside function
 # 2. [::-1] is useful when reverse operation is needed
 # 3. [a:b] read a place to b-1 place; left get right lose
+# 4. python can transfer int and str flexibly! int() str() cool!
