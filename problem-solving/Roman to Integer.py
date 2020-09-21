@@ -10,9 +10,7 @@ class Solution(object):
             else:
                 sum += map[s[i]]
         sum += map[s[-1]]
-
         return sum    
-        
 # what I learned form this task?
 # 1. index of list/dict a = [1,2,3] a[1] = 1; a[2] = 2; a[3] = 3
 # 2. s[-1] means the last place of string s
