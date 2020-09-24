@@ -34,3 +34,6 @@ class Solution(object):
 # 2. append() add new element for list 
 # (e.g. a[1,2,3] -> a.append(2=4) -> a = [1,2,3,4])
 
+# 3. stack!
+
+
