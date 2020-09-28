@@ -5,12 +5,12 @@
 ## 2. coding practice(leetcode)  
    Focus on the alogrrithm and data structure.  
    The contents that I've learned so far:  
-   # 2.1 data structure
+   ### 2.1 data structure
    stack:   
    20. Valid Parentheses  
    Hash map:  
    
-   # 2.2 Alogrithm  
+   ### 2.2 Alogrithm  
    
    
    
